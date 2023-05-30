@@ -12,7 +12,7 @@
 # Copyright, 2019-2022, by Samuel Williams.
 # Copyright, 2019, by Patrick Davey.
 
-warn "Top level ::Multipartable is deprecated, require 'multipart/post' and use `Multipart::Post::Multipartable` instead!"
+warn "DEPRECATION WARNING: Top level ::Multipartable is deprecated, require 'multipart/post' and use `Multipart::Post::Multipartable` instead!"
 require_relative 'multipart/post'
 
 Multipartable = Multipart::Post::Multipartable
